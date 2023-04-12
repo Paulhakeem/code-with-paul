@@ -41,7 +41,9 @@ import { RouterLink, useRouter } from 'vue-router'
         <h1 class="text-4xl pl-4 font-sembold tracking-wide pt-4 text-white">Welcome To The Home Of Designers!!</h1>
         <p class="pl-4 text-white text-md pt-4 select-none">We are the best designer when it comes to website and graphics. We design high quality and eye-catching designs. We are here for you let us know what you need and we will deliver it on time.</p>
           <div class="pl-4 mt-4">
-            <button class="mt-4 p-2 bg-white rounded-md text-blue-800 tracking-wide cursor-ponter hover:shadow-lg">Read More >></button>
+            <RouterLink to="/reach">
+            <button class="mt-4 p-2 bg-white rounded-md text-blue-800 tracking-wide cursor-ponter hover:shadow-lg">Contact Us >></button>
+              </RouterLink>
           </div>
          </div>
          <div class="font-medium pt-4 ml-4 mr-4">
@@ -55,7 +57,9 @@ import { RouterLink, useRouter } from 'vue-router'
     <div class="pt-10">
     <h1 class="text-blue-800 font-semibold text-xl tracking-wide"> Who We Are </h1>
     <p class="pt-4 decoration-2 antialiased select-none">Incepted in 2022, Pol Technologies (Code With Paul) is a leading Development & Design expert company providing superior Graphics Design, Web Design, and Creative Designing solutions and services to companies. Having strong Technology Development and Innovation personnel and a range of satisfied clients ranging from startups – to fortune companies across diverse industries, Pol Technology (PT) has made its mark as a well-established and sound company driven by the industry’s highly professional and trained individuals and is surely headed in becoming a leading organization which facilitates, enhances and provides measurable business value to customers through most effective uses of technology and Resources to organizations</p>
+      <RouterLink to="/about">
       <button class="mt-4 p-2 bg-blue-800 rounded-md text-white tracking-wide cursor-ponter mb-2 hover:shadow-lg"> Read More >> </button>
+        </RouterLink>
     </div>
     <div>
     <img src="../assets/about.jpg" class="rounded-md">
@@ -184,3 +188,4 @@ In contrast to flyers, a brochure is like a book in form.</p>
       </div>
     </div>
 </template>
+

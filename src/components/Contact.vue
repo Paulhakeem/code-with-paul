@@ -1,6 +1,27 @@
 <script setup>
-  import{ref} from "vue"
+  import { ref } from 'vue'
+  import emailjs from '@emailjs/browser'
+
+  const form = ref(null)
+  const inputFieldReset = ref(null)
+
+  const sendMail = () => {
+        emailjs.sendForm('service_0pre02q', 'template_cmilumo', form.value, 'yz6D6HZgDaZq2vG80')
+     .then(() => {
+          alert('Message sent!')
+          inputFieldReset.value = " "
+        }, (error) => {
+          alert('Message not sent', error)
+        }) 
+  return{
+    form,
+    inputFieldReset,
+    sendMail
+  }
+  }
 </script>
+
+
 <template>
 	<section class="py-6 dark:bg-gray-800 dark:text-gray-50 ml-4 mr-4 mt-16 bg-gray-400 rounded-md">
 		<div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
@@ -29,24 +50,29 @@
 					</p>
 				</div>
 			</div>
-			<form novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+      
+			<form ref="form" @submit.prevent="sendMail" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
 				<label class="block">
 					<span class="mb-1">Full name</span>
-					<input type="text" placeholder="Your Name" class="w-full p-3 rounded dark:bg-gray-400 focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-blue-800">
+					<input type="name" placeholder="Your Name" class="w-full p-3 rounded dark:bg-gray-400 focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-blue-800" :value="inputFieldReset" required>
 				</label>
 				<label class="block">
 					<span class="mb-1">Email address</span>
-					<input type="email" placeholder="example@you.com" class="w-full p-3 rounded dark:bg-gray-400 focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-blue-800">
+					<input type="email" placeholder="example@you.com" class="w-full p-3 rounded dark:bg-gray-400 focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-blue-800" :value="inputFieldReset" required>
 				</label>
 				<label class="block">
 					<span class="mb-1">Message</span>
-					<textarea rows="3" class="w-full p-3 rounded dark:bg-gray-400 focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-blue-800"></textarea>
+					<textarea type="message" rows="3" class="w-full p-3 rounded dark:bg-gray-400 focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-blue-800" placeholder="Write your message.." :value="inputFieldReset" required></textarea>
 				</label>
-				<button type="button" class="self-center px-8 py-3 text-lg rounded w-full bg-blue-800 text-white focus:ring hover:ring focus:ring-opacity-75 dark:text-white focus:ring-violet-400 hover:ring-violet-400">Submit</button>
+				<button type="submit" class="self-center px-8 py-3 text-lg rounded w-full bg-blue-800 text-white focus:ring hover:ring focus:ring-opacity-75 dark:text-white focus:ring-violet-400 hover:ring-violet-400 uppercase">Send</button>
 			</form>
 		</div>
 	</section>
-  <div class="float-right">
-  <img src="../assets/whatsapp.svg" class="w-20 fixed">
+  <div class="float-right flex gap-2 pr-4 cursor-pointer">
+    <a href="https://wa.link/38fuqe" target="_blank">
+  <img src="../assets/whatsapp.svg" class="w-12 m-auto">
+       
+      </a>
+   <button class="overflow-hidden">Chat With Us</button>
     </div>
 </template>

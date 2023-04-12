@@ -10,8 +10,10 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@emailjs/browser": "^3.11.0",
         "@types/node": "^18.0.6",
         "@vitejs/plugin-vue": "^4.0.0",
+        "emailjs-com": "^3.2.0",
         "node-fetch": "^3.2.6",
         "vite": "^4.0.4",
         "vue": "^3.2.45",
