@@ -4,7 +4,7 @@ import { RouterLink, useRouter } from 'vue-router'
 </script>
 <template>
   
-<header class="bg-white border-gray-200 dark:border-gray-700 shadow-md">
+<header class="bg-white border-gray-200 dark:border-gray-700 shadow-md sticky top-0">
   <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
     <img src="../assets/LOGO.png" class="w-16 shadow-md">
     <ul class="flex">
@@ -15,11 +15,13 @@ import { RouterLink, useRouter } from 'vue-router'
       <li class="text-blue-800 font-medium text-md tracking-wide hover:bg-blue-800 hover:text-white p-2 rounded-md cursor-pointer">About</li>
           </RouterLink>
         <RouterLink to='/service'>
-      <li class="text-blue-800 font-medium text-md tracking-wide hover:bg-blue-800 hover:text-white p-2 rounded-md cursor-pointer">Service</li>
+      <li class="text-blue-800 font-medium text-md tracking-wide p-2 rounded-md cursor-pointer">
+            Services
+      </li>
           </RouterLink>
         <RouterLink to="/reach">
       <li class="text-blue-800 font-medium text-md tracking-wide hover:shadow-md p-2 rounded-md cursor-pointer">
-        <img src="../assets/call.png" class="w-8">
+        <img src="../assets/call.png" class="w-8 animate-bounce">
       </li>
         </RouterLink>
     </ul>

@@ -68,11 +68,4 @@
 			</form>
 		</div>
 	</section>
-  <div class="float-right flex gap-2 pr-4 cursor-pointer">
-    <a href="https://wa.link/38fuqe" target="_blank">
-  <img src="../assets/whatsapp.svg" class="w-12 m-auto">
-       
-      </a>
-   <button class="overflow-hidden">Chat With Us</button>
-    </div>
 </template>

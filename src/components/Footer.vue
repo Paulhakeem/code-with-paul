@@ -208,4 +208,9 @@
     </a>
   </div>
 </section>
+  <div class="flex float-right space-x-8 pr-4 cursor-pointer sticky absolute bottom-0 left-0">
+    <a href="https://wa.link/38fuqe" target="_blank">
+      <img src="../assets/watsap.svg" class="w-12 animate-spin">
+      </a>
+    </div>
 </template>
