@@ -123,19 +123,31 @@
           Useful links
         </h6>
         <p class="mb-4">
-          <a href="#!" class="text-white dark:text-white"
-            >Services</a
-          >
+          <RouterLink to="/" class="text-white dark:text-white"
+            >Services
+          </RouterLink>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white dark:text-white"
-            >About</a
-          >
+          <RouterLink to="/about"  class="text-white dark:text-white"
+            >About</RouterLink>
+          
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-white dark:text-white"
-            >Contacts</a
-          >
+          <RouterLink to=""  class="text-white dark:text-white"
+            >Website design</RouterLink>
+          
+        </p>
+
+        <p class="mb-4">
+          <RouterLink to=""  class="text-white dark:text-white"
+            >Graphic design</RouterLink>
+          
+        </p>
+
+        <p class="mb-4">
+          <RouterLink to="/reach"  class="text-white dark:text-white"
+            >Contact</RouterLink>
+          
         </p>
 
       </div>
