@@ -6,7 +6,7 @@ const showMenu = ref(false)
 </script>
 <template>
   
-<div id="app">
+<div id="app" class="">
   <div class="">
     <div class="bg-blue-800">
       <nav class="flex container mx-auto px-5 py-5">
@@ -30,39 +30,39 @@ const showMenu = ref(false)
               
           </li>
           <li class="hidden sm:flex">
-            <RouterLink to="/about"
+            <RouterLink :to="{name: 'About'}"
               class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
               >About
             </RouterLink>
               
           </li>
           <li class="hidden sm:flex">
-            <RouterLink to="/service"
+            <RouterLink :to="{name: 'Logo-design'}"
               class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
-              >Services
+              >Logo design
             </RouterLink>
               
           </li>
            <li class="hidden sm:flex">
-            <RouterLink to="/service"
+            <RouterLink :to="{name: 'Website-design'}"
               class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
               >Website design
             </RouterLink>
           </li>
            <li class="hidden sm:flex">
-            <RouterLink to="/service"
+            <RouterLink :to="{name: 'Graphic-design'}"
               class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
               >Graphic design
             </RouterLink>
           </li>
            <li class="hidden sm:flex">
-            <RouterLink to="/service"
+            <RouterLink :to="{name: 'social-mediam-marketing'}"
               class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
               >Digital Marketing
             </RouterLink>
           </li>
            <li class="hidden sm:flex">
-            <RouterLink to="/reach"
+            <RouterLink :to="{name: 'Reach-Us'}"
               class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
               ><img src="../assets/call.png" class="w-8 animate-bounce">
             </RouterLink>
@@ -122,37 +122,37 @@ const showMenu = ref(false)
                     </RouterLink>
                 </li>
                 <li class="flex">
-                  <RouterLink to="/about"
+                  <RouterLink :to="{name: 'About'}"
                     class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                     >About
                     </RouterLink>
                 </li>
                 <li class="flex">
-                  <RouterLink to="/service"
+                  <RouterLink :to="{name: 'Logo-design'}"
                     class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
-                    >Services
+                    >Logo design
                     </RouterLink>
                 </li>
                 <li class="flex">
-                  <RouterLink to=""
+                  <RouterLink :to="{name: 'Website-design'}"
                     class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                     >Website design
                     </RouterLink>
                 </li>
                 <li class="flex">
-                  <RouterLink to=""
+                  <RouterLink :to="{name: 'Graphic-design'}"
                     class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                     >Graphic design
                     </RouterLink>
                 </li>
                 <li class="flex">
-                  <RouterLink to="/service"
+                  <RouterLink :to="{name: 'social-mediam-marketing'}"
                     class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                     >Digital Marketing
                     </RouterLink>
                 </li>
                  <li class="flex">
-                  <RouterLink to="/reach"
+                  <RouterLink :to="{name: 'Reach-Us'}"
                     class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                     >Contact Us
                     </RouterLink>

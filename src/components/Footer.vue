@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
 <section
-  class="bg-gray-500 text-center text-white dark:bg-gray-800 dark:text-white lg:text-left ml-4 mr-4 rounded-md mt-16">
+  class="bg-gray-500 text-center text-white dark:bg-gray-800 dark:text-white lg:text-left rounded-md mt-16">
   <div
     class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
     <div class="mr-12 hidden lg:block">
@@ -219,10 +219,11 @@
       Pol Technology
     </a>
   </div>
+  
 </section>
-  <div class="flex float-right space-x-8 pr-4 cursor-pointer sticky absolute bottom-0 left-0">
+  <div class="flex float-right space-x-8 pr-4 cursor-pointer sticky absolute bottom-0 left-0 hover:shadow-lg">
     <a href="https://wa.link/38fuqe" target="_blank">
-      <img src="../assets/watsap.svg" class="w-12 animate-spin">
+      <img src="../assets/watsap.svg" class="w-12 animate-spin pb-4">
       </a>
     </div>
 </template>

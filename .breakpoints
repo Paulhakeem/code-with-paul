@@ -1,0 +1,58 @@
+{
+  "files": {
+    "src/components/Graphics.vue": [
+      {
+        "id": "03d1c9ea-0e5d-43ab-aca1-94bd59bc89f1",
+        "line": 663,
+        "version": 1093,
+        "index": 23813
+      },
+      {
+        "id": "f5f87f8c-30f5-428e-a889-da31ba97f211",
+        "line": 734,
+        "version": 1093,
+        "index": 26328
+      }
+    ],
+    "src/components/Header.vue": [
+      {
+        "id": "3889f4cd-21f3-4f73-96af-7bb11dc06825",
+        "line": 6,
+        "version": 2539,
+        "index": 119
+      }
+    ],
+    "src/components/Logo.vue": [
+      {
+        "id": "5599f9b1-cf3a-423e-9254-cd0a7a5426c3",
+        "line": 1,
+        "version": 1,
+        "index": 0
+      }
+    ],
+    "src/views/Graphic.vue": [
+      {
+        "id": "06a51c44-43d8-4df3-bda4-db867c18bd2c",
+        "line": 34,
+        "version": 515,
+        "index": 1290
+      }
+    ],
+    "src/views/Marketing.vue": [
+      {
+        "id": "fb15a02e-26d1-4fb7-a4ba-3cc51fa3361d",
+        "line": 1,
+        "version": 2852,
+        "index": 0
+      }
+    ],
+    "src/views/WebDesign.vue": [
+      {
+        "id": "15764b0c-95c1-4841-965c-ffb9e95181af",
+        "line": 20,
+        "version": 574,
+        "index": 611
+      }
+    ]
+  }
+}
