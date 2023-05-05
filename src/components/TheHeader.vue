@@ -86,7 +86,7 @@ In contrast to flyers, a brochure is like a book in form.</p>
     </div>
    <div class="auto-cols-min bg-gray-300 text-center w-80 rounded-md cursor-pointer pb-6 hover:bg-white hover:border hover:border-1 hover:border-gray-400">
      <div class="flex gap-4">
-     <img src="../assets/card.png" class="w-20 h-20 pl-2">
+     <img src="" class="w-20 h-20 pl-2">
       <h4 class="text-blue-800 font-semibold tracking-wide antialiased pt-6">Business card Design</h4>
         </div>
      <p class="mr-2 ml-2 select-none">Business cards include information about you and the organization you work for. If you have a business card, you can use it to introduce yourself to people so they can get in touch with you and learn more about what you do, which will bring in clients.</p>
