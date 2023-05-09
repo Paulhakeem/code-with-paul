@@ -5,6 +5,7 @@ import Header from '../components/Header.vue'
 </script>
 
 <template>
+  <div>
 <Header/>
 
   <section class="bg-[url('../src/assets/working.jpg')] bg-scroll bg-cover bg-center pb-28 backdrop-brightness-50">
@@ -164,5 +165,6 @@ In contrast to flyers, a brochure is like a book in form.</p>
       <p class="font-light italic text-md pt-2 ml-2 mr-2"><span class="text-blue-800 font-bold">Working</span> at LK Bakery</p>
       </div>
     </div>
+  </div>
 </template>
 

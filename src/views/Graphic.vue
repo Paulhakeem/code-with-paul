@@ -6,6 +6,7 @@
   import Graphics from '../components/Graphics.vue'
 </script>
 <template>
+  <div>
   <Header/>
 
   <section 
@@ -48,4 +49,5 @@
 
     <Graphics/>
   <Footer/>
+    </div>
 </template>

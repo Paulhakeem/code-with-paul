@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  
+  <div>
   <Header/>
 
 
@@ -19,4 +19,5 @@
   </section>
   <Services/>
   <Footer/>
+    </div>
 </template>

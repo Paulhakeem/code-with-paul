@@ -5,7 +5,7 @@ import { RouterLink, useRouter } from 'vue-router'
 const showMenu = ref(false)
 </script>
 <template>
-  
+
 <div id="app" class="">
   <div class="">
     <div class="bg-blue-800">
@@ -165,5 +165,4 @@ const showMenu = ref(false)
     </div>
   </div>
 </div>
-
 </template>

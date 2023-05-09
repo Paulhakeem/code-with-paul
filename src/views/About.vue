@@ -6,6 +6,7 @@
 </script>
 
 <template>
+  <div>
 <Header/>
   <section class="bg-[url('../src/assets/working.jpg')] bg-scroll bg-cover bg-center pb-28 backdrop-brightness-50 h-48 bg-blend-darken bg-local">
      <div class="text-center m-auto pt-12">
@@ -59,4 +60,5 @@
  </div>
  </div>
     <Footer/>
+    </div>
 </template>

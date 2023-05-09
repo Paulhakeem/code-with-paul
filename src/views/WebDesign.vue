@@ -5,6 +5,7 @@
   import Header from '../components/Header.vue'
 </script>
 <template>
+  <div>
   <Header/>
 
   <section class="bg-[url('../src/assets/working.jpg')] bg-scroll bg-cover bg-center pb-28 backdrop-brightness-50 h-48 bg-blend-darken bg-local">
@@ -360,4 +361,5 @@ Our plans include email hosting, web hosting, and domain registration.
     </div>
     </div>
   <Footer/>
+  </div>
 </template>

@@ -5,6 +5,7 @@
   import Header from '../components/Header.vue'
 </script>
 <template>
+  <div>
   <Header/>
   <section class="bg-[url('../src/assets/social.jpg')] bg-scroll bg-cover bg-center pb-28 backdrop-brightness-50 h-48 bg-blend-darken bg-local">
      <div class="text-center m-auto pt-12">
@@ -188,4 +189,5 @@ The power of social media is admirable because it enables you to reach a large a
     </div>
   </div>
   <Footer/>
+  </div>
 </template>

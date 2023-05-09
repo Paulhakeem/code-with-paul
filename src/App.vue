@@ -3,20 +3,28 @@ import HelloWorld from './views/HelloWorld.vue'
 </script>
 
 <template>
-  <router-view>
-    
+  <router-view v-slot="{ Component }">
+  <transition name="moveUp">
+    <component :is="Component" />
+  </transition>
   </router-view>
 </template>
 
 <style scoped>
-  .slide-enter-active,
-  .slide-leave-active {
-    transition: opacity 1;
+  .moveUp-enter-active {
+    animation: fadeIn 1s ease-in;
   }
-  .slide-enter-from,
-  .slide-leave-to {
-    opacity: 0;
-    transform: translateX(-30%);
+  @keyframes fadeIn {
+     0% { opacity: 0; }
+     0% { opacity: 0.5; }
+     0% { opacity: 1; }
+  }
+  .moveUp-leave-active {
+    animation: moveUp 0.3s ease-in;
+  }
+  @keyframes moveUp {
+    0% { transform: translateY(0); }
+   100% { transform: translateY(-400px); }
   }
 </style>
 
