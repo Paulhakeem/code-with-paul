@@ -17,41 +17,48 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {path: '/', 
-         name: 'Home', 
+         name: 'Home',
          component: () => 
-        import(/* webpackChunkName: "Home" */ './views/HelloWorld.vue')},
+        import( './views/HelloWorld.vue')},
       
       {path: '/about',
        name: 'About', 
        component: () => 
-      import(/* webpackChunkName: About" */ './views/About.vue')},
+      import('./views/About.vue')},
       
       {path: '/logo', 
        name: 'Logo-design',
        component: () => 
-      import(/* webpackChunkName: "Logo-design" */ './views/LogoDesign.vue')},
+      import('./views/LogoDesign.vue')},
       
        {path: '/reach', 
         name: 'Reach-Us',
         component: () => 
-        import(/* webpackChunkName: "Reach-Us" */ './views/ReachUs.vue')},
+        import('./views/ReachUs.vue')},
       
       {path: '/web', 
        name: 'Website-design',
        component:  () => 
-        import(/* webpackChunkName: "Website-design" */ './views/WebDesign.vue')},
+        import('./views/WebDesign.vue')},
       
       {path: '/graphs',
-       name: 'Graphic-design', 
+       name: 'Graphic-design',
        component:  () => 
-      import(/* webpackChunkName: "Graphic-design" */ './views/Graphic.vue')},
+      import('./views/Graphic.vue')},
       
       {path: '/media', 
-       name:'social-mediam-marketing', 
+       name:'social-mediam-marketing',
        component: () => 
-      import(/* webpackChunkName: "social-mediam-marketing" */ './views/Marketing.vue')
+      import('./views/Marketing.vue')
       }
-    ]
+    ],
+    scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  },
 })
 
 

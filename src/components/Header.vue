@@ -23,7 +23,7 @@ const showMenu = ref(false)
         </ul>
         <ul class="flex items-center space-x-5">
           <li class="hidden sm:flex">
-            <RouterLink to="/"
+            <RouterLink :to="{name: 'Home'}"
               class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
               >Home
             </RouterLink>
@@ -116,7 +116,7 @@ const showMenu = ref(false)
                   </h3>
                 </li>
                 <li class="flex border-t">
-                 <RouterLink to="/"
+                 <RouterLink :to="{name: 'Home'}"
                     class="flex flex-1 text-lg text-gray-700 hover:bg-gray-200 font-semibold px-8 py-4"
                     >Home
                     </RouterLink>
