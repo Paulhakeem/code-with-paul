@@ -49,8 +49,9 @@ The power of social media is admirable because it enables you to reach a large a
 
 
   <div class="pt-24">
-<div class="bg-blue-800 ml-4 mr-4 h-12 rounded md shadow-md shadow-black"></div>
+<div class="bg-blue-800 ml-4 mr-4 h-12 rounded md shadow-md shadow-black rounded-bl-full rounded-tr-full"></div>
 </div>
+    
   <div class="grid md:grid-cols-2 my-6 pt-24 gap-2 ml-4 mr-4">
       <div class="mt-24">
         <div class="">

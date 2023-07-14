@@ -44,7 +44,7 @@ import Header from '../components/Header.vue'
     </div>
   </div>
 
-  <div class="bg-blue-800 mt-20 text-center pb-4 ml-4 mr-4">
+  <div class="bg-blue-800 mt-20 text-center pb-4 ml-4 mr-4 rounded-bl-full rounded-tr-full">
   <div class="text-white mr-4 ml-4">
     <h3 class="font-semibold text-xl tracking-wide pt-4 antialiased">Our Mission</h3>
      <p class="pt-2 antialiased select-none">Our mission is to exceed our customer’s expectations in the form of value, quality, and complete customer satisfaction.</p>

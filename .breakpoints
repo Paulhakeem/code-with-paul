@@ -18,7 +18,7 @@
       {
         "id": "3889f4cd-21f3-4f73-96af-7bb11dc06825",
         "line": 6,
-        "version": 2539,
+        "version": 2570,
         "index": 119
       }
     ],
@@ -33,25 +33,25 @@
     "src/views/Graphic.vue": [
       {
         "id": "06a51c44-43d8-4df3-bda4-db867c18bd2c",
-        "line": 34,
-        "version": 515,
-        "index": 1290
+        "line": 35,
+        "version": 519,
+        "index": 1298
       }
     ],
     "src/views/Marketing.vue": [
       {
         "id": "fb15a02e-26d1-4fb7-a4ba-3cc51fa3361d",
         "line": 1,
-        "version": 2852,
+        "version": 2859,
         "index": 0
       }
     ],
     "src/views/WebDesign.vue": [
       {
         "id": "15764b0c-95c1-4841-965c-ffb9e95181af",
-        "line": 20,
-        "version": 574,
-        "index": 611
+        "line": 21,
+        "version": 579,
+        "index": 619
       }
     ]
   }

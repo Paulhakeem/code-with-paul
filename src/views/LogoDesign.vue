@@ -12,12 +12,12 @@
 
 
 
-  <section class="bg-[url('../src/assets/office.jpg')] bg-scroll bg-cover bg-center pb-28 backdrop-brightness-50 h-48 bg-blend-darken bg-local">
-    <div class="text-center m-auto pt-20">
-       <h1 class="text-2xl font-bold text-white uppercase">high quality logo design</h1>
+  <section class="bg-[url('../src/assets/bg.jpg')] bg-scroll bg-cover bg-center pb-28 backdrop-brightness-50 h-64 bg-blend-darken bg-local">
+    <div class="text-center m-auto pt-28">
+       <h1 class="text-2xl font-bold text-blue-800 uppercase">high quality logo design</h1>
      </div>
   </section>
-  <Services/>
+<Logo/>
   <Footer/>
     </div>
 </template>

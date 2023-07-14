@@ -29,9 +29,11 @@
          </div>
       </div>
     </div>
+    
 <div class="pt-24">
-<div class="bg-blue-800 pt-16 ml-4 mr-4 h-12 rounded md shadow-md shadow-black"></div>
+<div class="bg-blue-800 pt-16 ml-4 mr-4 h-12 rounded md shadow-md shadow-black rounded-bl-full rounded-tr-full"></div>
 </div>
+    
   <div class="grid md:grid-cols-2 my-6 pt-24 gap-2 ml-4 mr-4">
       <div class="rounded-md shadow-lg">
         <div class="">
