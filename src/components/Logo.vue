@@ -87,4 +87,109 @@ A good logo can help build trust and credibility with potential customers. When 
     <img src="../assets/tt.jpg" class="mx-auto ">
     </div>
 
+
+  <div class="text-center">
+    <h1 class="text-2xl tracking-wide text-blue-800">Choose your plan</h1>
+    
+  <div class="flex flex-wrap auto-rows-min justify-center gap-12 md:flex-wrap pt-6 gap-12">
+    <div class="auto-cols-min text-center w-80 rounded-md pb-6 cursor-pointer border border-1 border-gray-300 hover:bg-gray-300 hover:border hover:border-1 hover:border-gray-300">
+     <img src="../assets/status.png" class="mx-auto w-24 pt-4">
+      <h4 class="text-blue-800 text-lg font-bold tracking-wide antialiased pt-6 select-none">
+       Entry<br> Ksh 1500/= 
+      </h4>
+      
+     <ul class="space-y-4 select-none mt-4">
+       <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']" 
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4"> 
+         Two logo design concepts
+         </p>
+       </li>
+       
+       <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']" 
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4">
+           Two Revision
+         </p>
+       </li>
+       
+      <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']" 
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4">Delivery Period 2 Days</p>
+       </li>
+       <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']"
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4">
+          File Formats (JPG, PNG, PDF)
+         </p>
+       </li>
+       
+     </ul>
+      <a href="https://wa.link/38fuqe" target="_blank">
+      <button class="p-4 mt-6 bg-blue-800 rounded-md text-white uppercase tracking-wider font-semibold hover:bg-white hover:text-blue-800 hover:border hover:border-1 hover:border-blue-800 cursor-pointer">
+        order now
+      </button>
+        </a>
+    </div>
+
+
+    <div class="auto-cols-min text-center w-80 rounded-md pb-6 cursor-pointer border border-1 border-gray-300 hover:bg-gray-300 hover:border hover:border-1 hover:border-gray-300">
+     <img src="../assets/status.png" class="mx-auto w-24 pt-4">
+      <h4 class="text-blue-800 text-lg font-bold tracking-wide antialiased pt-6 select-none">
+        Professional <br> Ksh 2500/= 
+      </h4>
+      <ul class="space-y-4 select-none mt-4">
+       <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']" 
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4"> 
+      Four Logo design concepts
+         </p>
+       </li>
+       
+       <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']" 
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4">
+           Delivery Period 2-3 Days
+         </p>
+       </li>
+       
+      <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']" 
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4">Two Revision</p>
+       </li>
+       <li class="flex text-md font-light space-x-2 pl-2">
+         <font-awesome-icon 
+           :icon="['fas', 'circle-check']"
+           style="color: #084fc9;" class="w-6"/>
+         <p class="pr-4">
+          File Formats (JPG, PNG, PDF)
+         </p>
+       </li>
+       
+     </ul>
+     <a href="https://wa.link/38fuqe" target="_blank">
+      <button class="p-4 mt-6 bg-blue-800 rounded-md text-white uppercase tracking-wider font-semibold hover:bg-gray-300 hover:text-blue-800 hover:border hover:border-1 hover:border-blue-800 cursor-pointer">
+        order now
+      </button>
+       </a>
+    </div>
+    </div>
+
+
+    </div>
+
 </template>
