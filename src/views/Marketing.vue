@@ -8,8 +8,8 @@
   <div>
   <Header/>
   <section class="bg-[url('../src/assets/social.jpg')] bg-scroll bg-cover bg-center pb-28 backdrop-brightness-50 h-48 bg-blend-darken bg-local">
-     <div class="text-center m-auto pt-12">
-       <h1 class="text-2xl font-bold text-white uppercase">Social Media Marketing</h1>
+     <div class="text-center m-auto pt-20">
+       <h1 class="text-2xl font-bold text-blue-800 uppercase">Social Media Marketing</h1>
      </div>
   </section>
 

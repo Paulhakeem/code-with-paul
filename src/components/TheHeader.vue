@@ -16,7 +16,7 @@ import Header from '../components/Header.vue'
       </div>
       <div class="bg-blue-800 rounded-md">
         <div class="mt-16">
-        <h1 class="text-4xl pl-4 font-sembold tracking-wide pt-4 text-white">Welcome To The Home Of Designers!!</h1>
+        <h1 class="text-4xl pl-4 font-sembold tracking-wide pt-4 text-white">Welcome To Home Of Designers!!</h1>
         <p class="pl-4 text-white text-md pt-4 select-none">We are the best designer when it comes to website and graphics. We design high quality and eye-catching designs. We are here for you let us know what you need and we will deliver it on time.</p>
           <div class="pl-4 mt-4">
             <RouterLink to="/reach">

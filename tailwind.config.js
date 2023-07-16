@@ -8,7 +8,11 @@ export default {
     extend: {
       fontFamily: {
       'sans': [ 'roboto'],  
-    }
+    },
+      fontFamily: {
+      sans: ['Roboto', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
     },
   },
   plugins: [],

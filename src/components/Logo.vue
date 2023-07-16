@@ -188,8 +188,17 @@ A good logo can help build trust and credibility with potential customers. When 
        </a>
     </div>
     </div>
-
-
     </div>
 
+   <div class="text-2xl text-blue-800 select-none tracking-wide text-center pt-28">
+     Our happy clients
+   </div>
+   <div class="flex space-x-4 space-y-4 flex-wrap mr-4 ml-4 justify-center items-center">
+    <img src="../assets/FISHION.jpg" class="w-64 pt-4">
+    <img src="../assets/logo.jpg" class="w-64">
+    <img src="../assets/precious.jpg" class="w-40">
+    <img src="../assets/logo1.jpg" class="w-36">
+    <img src="../assets/precious farm.jpg" class="w-44 pt-3">
+    
+    </div>
 </template>

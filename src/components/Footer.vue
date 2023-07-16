@@ -1,9 +1,9 @@
 <script setup></script>
 <template>
 <section
-  class="bg-gray-500 text-center text-white dark:bg-gray-800 dark:text-white lg:text-left rounded-md mt-16">
+  class="bg-gray-500 text-center text-white dark:bg-gray-800 dark:text-white lg:text-left rounded-md mt-16 border border-2 border-blue-800">
   <div
-    class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
+    class="flex items-center justify-center border-b-2 border-blue-800 p-6 dark:border-neutral-500 lg:justify-between">
     <div class="mr-12 hidden lg:block">
       <span>Get connected with us on social media:</span>
     </div>
@@ -211,10 +211,10 @@
       </div>
     </div>
   </div>
-  <div class="bg-gray-800 p-6 text-center gap-2">
+  <div class="bg-blue-800 p-6 text-center gap-2">
     <span class="text-white">© 2023 Copyright:</span>
     <a
-      class="font-semibold text-blue-800 dark:text-white"
+      class="font-semibold text-white dark:text-white"
       href="https://tailwind-elements.com/">
       Pol Technology
     </a>
