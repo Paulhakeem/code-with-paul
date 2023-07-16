@@ -198,7 +198,7 @@ A good logo can help build trust and credibility with potential customers. When 
     <img src="../assets/logo.jpg" class="w-64">
     <img src="../assets/precious.jpg" class="w-40">
     <img src="../assets/logo1.jpg" class="w-36">
-    <img src="../assets/precious farm.jpg" class="w-44 pt-3">
+    <img src="../assets/precious-farm.jpg" class="w-44 pt-3">
     
     </div>
 </template>
