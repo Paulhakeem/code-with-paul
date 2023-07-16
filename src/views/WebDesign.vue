@@ -42,7 +42,7 @@
       </div>
     </div>
 
-  <div class="text-center pt-4 bg-blue-800 ml-4 mr-4 pb-4 rounded-bl-full rounded-tr-full">
+  <div class="text-center pt-4 bg-blue-800 ml-4 mr-4 pb-4 rounded-bl-xl rounded-tr-xl">
     <p class="select-none font-light text-white text-md">The information on your website conveys who you are, what you have to offer, and why potential clients should work with you.
 </p>
     </div>
